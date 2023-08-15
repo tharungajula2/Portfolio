@@ -1,5 +1,5 @@
 # Portfolio
-All the portfolio projects from Tharun Kumar Gajula
+portfolio projects from Tharun Kumar Gajula, which include python codes
 
 100 - It is notes on specific concepts of machine learning covering from Pandas data frames to supervised and unsupervised machine learning models
 
