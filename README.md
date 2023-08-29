@@ -3,7 +3,7 @@ Main Portfolio Projects from Tharun Kumar Gajula using Python
 
 **100** - It is notes on specific concepts of machine learning covering from Pandas data frames(Data Processing) to supervised and unsupervised machine learning models(Data Analytics).
 
-**101 **- It is the capstone project from Google - "Advanced Analytics Professional Certification".
+**101**- It is the capstone project from Google - "Advanced Analytics Professional Certification".
         - Analyzed HR data to diagnose high employee turnover; identified strain from excessive projects and imbalanced evaluations.
         - Developed a predictive model to gauge attrition likelihood, leading to actionable strategies for improved retention.
         - Recommended data-driven policy refinements, including project caps and evaluation criteria revamps.
