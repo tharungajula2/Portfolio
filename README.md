@@ -19,4 +19,4 @@
 
 4_Mathematics using python
 
-5_Machine learning projects
+5_Machine learning Healthcare projects
