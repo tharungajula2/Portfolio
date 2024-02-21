@@ -15,6 +15,10 @@
 3_Time Series Forecasting
 -  Time Series Forecasting: Executed ARIMA, SARIMA, and SARIMAX statistical models for forecasting on various datasets.
 
-📌Upcoming projects_as of 12 feb 2024
+📌Upcoming projects_as of 22 feb 2024
 
-4_Machine Learning Cookbook
+4_Prompt Engineering Notes
+
+5_Machine Learning Notes
+
+6_Deep Learning Notes
