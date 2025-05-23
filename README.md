@@ -17,8 +17,7 @@ Welcome to my portfolio! I'm a results-oriented data analytics professional with
 
 This repository showcases a collection of projects demonstrating my expertise across various domains, including **Credit Risk Modeling, Time Series Forecasting, Deep Learning, Natural Language Processing (NLP), and Reinforcement Learning**. My goal is to leverage data to build intelligent solutions that drive efficiency and inform strategic decisions.
 
-- 🔗 **Connect with me on [LinkedIn](https://linkedin.com/in/yourprofileurl)** *(<-- Don't forget to add your actual LinkedIn profile URL here!)*
-- 📄 Feel free to check out my professional resume for more details on my experience.
+- 🔗 **Connect with me on [LinkedIn](http://linkedin.com/in/tharungajula)**
 
 ---
 
