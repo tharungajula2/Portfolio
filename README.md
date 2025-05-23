@@ -25,7 +25,7 @@ This repository showcases a collection of projects demonstrating my expertise ac
 
 Here are some of the key projects I've worked on. Each project folder in this repository should contain the relevant code, notebooks, and any associated data.
 
-### 🧠 AI-Powered Credit Risk Modeling (PD Scorecard)
+### 🧠 Credit Risk Modeling (PD Scorecard)
 - **Objective:** To build a predictive model to assess credit risk and help in making informed lending decisions.
 - **Methodology:** Developed a **logistic regression model** to predict the **probability of default (PD)** and created an application scorecard based on the model's outputs.
 - **Impact:** Created a tool to optimize the credit risk assessment process, leading to more data-driven and reliable lending decisions.
