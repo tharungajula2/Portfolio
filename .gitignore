@@ -1,0 +1,28 @@
+ # Data files
+*.csv
+*.parquet
+*.xls
+*.xlsx
+*.db
+*.sqlite
+
+# Model files
+*.pkl
+*.pickle
+*.h5
+*.joblib
+
+# Python cache and environment folders
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+.env/
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# OS-specific files
+.DS_Store
