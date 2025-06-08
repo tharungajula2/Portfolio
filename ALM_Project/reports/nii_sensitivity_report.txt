@@ -1,0 +1,25 @@
+
+=================================================
+=      Net Interest Income (NII) Sensitivity Report     =
+=================================================
+All amounts in INR Crores.
+
+Scenario: +100 Basis Point (+1.0%) Parallel Rate Shock
+
+--- BASELINE ---
+Total Interest Income:  131.96
+Total Interest Expense: 42.20
+---------------------------------
+Baseline NII:           89.76
+
+--- AFTER SHOCK ---
+Shocked Interest Income:  137.08
+Shocked Interest Expense: 50.90
+---------------------------------
+Shocked NII:              86.18
+
+=================================================
+=                      IMPACT                     =
+=================================================
+Change in NII:          -3.58
+=================================================

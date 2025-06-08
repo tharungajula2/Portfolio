@@ -1,0 +1,19 @@
+
+=================================================
+=         Liquidity Coverage Ratio (LCR) Report         =
+=================================================
+As per Basel III / RBI Guidelines (Simulated)
+All amounts in INR Crores.
+
+--- A. STOCK OF HIGH-QUALITY LIQUID ASSETS (HQLA) ---
+Total HQLA (Post-Haircut):   321.15
+
+--- B. TOTAL NET CASH OUTFLOWS (Next 30 Days) ---
+Total Outflows:              44.30
+
+=================================================
+=                       LCR                       =
+=================================================
+LCR Percentage (A / B):     724.97%
+RBI Minimum Requirement:    100.00%
+=================================================
