@@ -26,3 +26,14 @@ env/
 
 # OS-specific files
 .DS_Store
+
+
+# keep folders, ignore contents
+sfb-risk-lab/data/*
+!sfb-risk-lab/data/.gitkeep
+
+# common junk
+**/.ipynb_checkpoints/
+**/__pycache__/
+*.pyc
+.DS_Store
