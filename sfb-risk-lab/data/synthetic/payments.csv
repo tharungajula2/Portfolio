@@ -1,0 +1,4 @@
+payment_id,loan_id,due_date,paid_date,amount_due,amount_paid,channel
+P1,L1001,2025-02-15,2025-02-15,4583.33,4583.33,NACH
+P2,L1001,2025-03-15,2025-03-18,4583.33,4583.33,UPI
+P3,L2001,2025-03-10,,15408.00,0.00,NACH

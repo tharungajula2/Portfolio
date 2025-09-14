@@ -1,0 +1,38 @@
+version: 1
+tables:
+  customers:
+    primary_key: customer_id
+    columns:
+      customer_id: string
+      gender: enum[Male,Female]
+      dob: date
+      segment: enum[microfinance,msme,secured]
+      state: string
+
+  loans:
+    primary_key: loan_id
+    foreign_keys:
+      customer_id: customers.customer_id
+    columns:
+      loan_id: string
+      customer_id: string
+      product: enum[GL,PL,TW,HL,LAP,MSME]
+      disbursed_date: date
+      sanctioned_amount: float
+      interest_rate: float
+      tenure_months: int
+      emi_amount: float
+      secured_flag: bool
+
+  payments:
+    primary_key: payment_id
+    foreign_keys:
+      loan_id: loans.loan_id
+    columns:
+      payment_id: string
+      loan_id: string
+      due_date: date
+      paid_date: date|null
+      amount_due: float
+      amount_paid: float
+      channel: enum[NACH,UPI,CASH,NEFT]

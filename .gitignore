@@ -28,10 +28,6 @@ env/
 .DS_Store
 
 
-# keep folders, ignore contents
-sfb-risk-lab/data/*
-!sfb-risk-lab/data/.gitkeep
-
 # common junk
 **/.ipynb_checkpoints/
 **/__pycache__/
@@ -42,6 +38,14 @@ sfb-risk-lab/data/*
 # ignore notebook checkpoints
 **/.ipynb_checkpoints/
 
-# (optional) ignore all data except the placeholder
+# Ignore all data by default
 sfb-risk-lab/data/**
+
+# Keep placeholders and docs
 !sfb-risk-lab/data/.gitkeep
+!sfb-risk-lab/data/README.md
+!sfb-risk-lab/data/schema.yaml
+
+# Keep synthetic sample dataset
+!sfb-risk-lab/data/synthetic/
+!sfb-risk-lab/data/synthetic/**
