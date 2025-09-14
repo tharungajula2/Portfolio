@@ -1,0 +1,4 @@
+customer_id,gender,dob,segment,state
+C001,Female,1989-05-12,microfinance,Karnataka
+C002,Male,1992-11-03,msme,Tamil Nadu
+C003,Female,1985-07-21,secured,Telangana
