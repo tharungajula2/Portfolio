@@ -37,3 +37,11 @@ sfb-risk-lab/data/*
 **/__pycache__/
 *.pyc
 .DS_Store
+
+
+# ignore notebook checkpoints
+**/.ipynb_checkpoints/
+
+# (optional) ignore all data except the placeholder
+sfb-risk-lab/data/**
+!sfb-risk-lab/data/.gitkeep
