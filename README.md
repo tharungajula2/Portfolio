@@ -25,6 +25,8 @@ This repository showcases a collection of projects demonstrating my expertise ac
 
 Here are some of the key projects I've worked on. Each project folder in this repository should contain the relevant code, notebooks, and any associated data.
 
+---
+
 ### 🧠 Credit Risk Modeling (PD Scorecard)
 - **Objective:** To build a predictive model to assess credit risk and help in making informed lending decisions.
 - **Methodology:** Developed a **logistic regression model** to predict the **probability of default (PD)** and created an application scorecard based on the model's outputs.
@@ -104,6 +106,31 @@ Here are some of the key projects I've worked on. Each project folder in this re
 - **Data Manipulation & Viz:** Pandas, NumPy, Matplotlib, Seaborn, Tableau
 - **Development & Tools:** Git, GitHub, Jupyter, Google Colab, VS Code, SAS Enterprise Miner
 
+---
+
+### 🏦 ALM & Treasury Analytics Engine for Indian Banking
+<p>
+  <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.11"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License: MIT"/>
+</p>
+
+- **Objective:** A comprehensive simulation of a Business Analyst's role in developing an **Asset-Liability Management (ALM)** and Treasury analytics solution for a mid-sized Indian bank, analyzing **Interest Rate Risk in the Banking Book (IRRBB)** and **Liquidity Risk**.
+- **Problem Statement:** Simulated a scenario where "Indus National Bank" struggled with manual, spreadsheet-based ALM reporting that was slow, error-prone, and couldn't provide the Asset-Liability Committee (ALCO) with timely risk insights.
+- **Methodology:** Developed a Python-based analytical engine following **BCBS 239** principles, featuring:
+  - **Data Validation:** Robust pre-checks ensuring source data integrity
+  - **IRRBB Gap Analysis:** Traditional Gap Reports bucketing rate-sensitive assets/liabilities across time horizons
+  - **NII Sensitivity Analysis:** Quantifying Net Interest Income impact under +100 bps rate shock scenarios
+  - **LCR Calculation:** Basel III Liquidity Coverage Ratio calculation with HQLA identification and stressed outflow simulation
+- **Key Business Insights:**
+  - Bank identified as **Liability-Sensitive** to interest rate risk (negative gap in short-term buckets)
+  - A +100 bps rate hike would **decrease NII by ₹3.58 Crores**
+  - Strong liquidity position with **LCR at ~725%** (well above RBI's 100% minimum)
+- **Tools Used:** `Python 3.11`, `Pandas`, `NumPy`
+- **[📁 View Project](./ALM_Project)**
+
+---
 ---
 
 Feel free to explore the project folders. Thank you for visiting!
