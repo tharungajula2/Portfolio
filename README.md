@@ -1,136 +1,104 @@
-# Tharun Kumar Gajula's Data Analytics & AI Portfolio
+# Tharun Kumar Gajula's Portfolio | Product, Ops & Data
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
+  <img src="https://img.shields.io/badge/Gemini_AI-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white" alt="Gemini AI"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"/>
-  <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white" alt="TensorFlow"/>
-  <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" alt="PyTorch"/>
   <img src="https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=sql&logoColor=white" alt="SQL"/>
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau"/>
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
 </p>
 
 ---
 
 ### Hi there! 👋 I'm Tharun Kumar Gajula.
 
-Welcome to my portfolio! I'm a results-oriented data analytics professional with a strong foundation in banking, finance, and advanced machine learning. Driven by a passion for problem-solving and continuous learning, I specialize in transforming complex data into actionable strategies and robust predictive models.
+Welcome to my portfolio! I am a **Product-Minded Technical Builder** with over 5 years of experience bridging **Business Strategy** and **Technical Execution**.
 
-This repository showcases a collection of projects demonstrating my expertise across various domains, including **Credit Risk Modeling, Time Series Forecasting, Deep Learning, Natural Language Processing (NLP), and Reinforcement Learning**. My goal is to leverage data to build intelligent solutions that drive efficiency and inform strategic decisions.
+My background is multidisciplinary—spanning **Engineering, Finance (Credit Risk), and Deep Learning (IISc)**. I don't just analyze data; I build the **Operational Infrastructure** (Internal Tools, Dashboards, Logic Engines, and AI Workflows) that allows teams to scale.
+
+This repository showcases my evolution from a Data Analyst to a **Full-Stack Operator**, featuring projects ranging from **Digital Clinical Twins (Yukti OS)** to **Risk Scoring Models** and **Automated Financial Engines**.
 
 - 🔗 **Connect with me on [LinkedIn](http://linkedin.com/in/tharungajula)**
 
 ---
 
-## 🚀 Project Showcase
+## 🚀 Key Projects (Builder's Lab)
 
-Here are some of the key projects I've worked on. Each project folder in this repository should contain the relevant code, notebooks, and any associated data.
+Here are the key systems I have built. These range from "0-to-1" product prototypes to deep analytical models.
 
 ---
 
-### 🧠 Credit Risk Modeling (PD Scorecard)
-- **Objective:** To build a predictive model to assess credit risk and help in making informed lending decisions.
-- **Methodology:** Developed a **logistic regression model** to predict the **probability of default (PD)** and created an application scorecard based on the model's outputs.
-- **Impact:** Created a tool to optimize the credit risk assessment process, leading to more data-driven and reliable lending decisions.
+### 🩺 Yukti OS (The Clinical Operating System) 
+- **Objective:** To solve "Context Blindness" in elderly care by building a "Digital Clinical Twin" ecosystem.
+- **The Build:** Engineered a context-aware OS with 5 core modules:
+  1. A **15-point Geriatric Risk Engine** (Digitizing clinical intake).
+  2. An **AI-powered Smart Report Analyzer** (using **Gemini 2.0 Flash**).
+  3. A **Medication & Wellness Tracker** (Hydration, Mood, Vitals).
+  4. A **WhatsApp Companion Bot** for zero-friction senior engagement.
+- **Impact:** Demonstrated end-to-end execution from **Clinical Logic** to **Edge AI Deployment**, delivering a fully functional product over a single weekend.
+- **Live Demo:** [Yukti OS](https://yukti-os.vercel.app/) *(Passkey: praan2026)*
+- **Tools Used:** `Next.js`, `React`, `Gemini 2.0`, `Vercel`, `Tailwind CSS`
+
+---
+
+### 🧠 Credit Risk Modeling & Application Scorecard
+- **Objective:** To automate high-stakes lending decisions by quantifying user risk.
+- **Methodology:** Built an end-to-end **"Probability of Default" (PD) scorecard**. Developed a logistic regression model to assign risk scores based on user attributes, mirroring the logic required for clinical risk stratification.
+- **Impact:** Optimized decision thresholds for loan approvals, proving the ability to build **transparent, defensible logic engines** for operations.
 - **Tools Used:** `Python`, `Scikit-learn`, `SQL`, `Excel`
 
 ---
 
+### 🧬 Diabetes Risk Prediction on 106k+ Records
+- **Objective:** To identify early-stage chronic disease risk using large-scale physiological data.
+- **Methodology:** Developed a scalable ML pipeline to predict diabetes risk across **106,000+ health records** using biomarkers like BMI, Age, and Blood Pressure.
+- **Impact:** Achieved an **ROC-AUC of 0.82** with an optimized ensemble model, demonstrating the ability to handle noisy health data at scale.
+- **Tools Used:** `Python (Scikit-learn)`, `Pandas`, `Matplotlib`
+
+---
+
+### 🏦 ALM & Treasury Analytics Engine (Simulated)
+- **Objective:** To replace manual spreadsheets with an automated **Asset-Liability Management (ALM)** engine for a mid-sized Indian bank.
+- **Methodology:** Developed a Python-based analytical engine following **BCBS 239** principles. Features include **IRRBB Gap Analysis**, **NII Sensitivity Analysis**, and **LCR (Liquidity Coverage Ratio)** calculation.
+- **Impact:** Simulated a scenario where the tool identified a **₹3.58 Crore** risk exposure from a rate hike, enabling proactive hedging.
+- **Tools Used:** `Python 3.11`, `Pandas`, `NumPy`
+
+---
+
+## 📊 Data Intelligence & ML Projects
+
+Below is a collection of my specialized work in Analytics and Machine Learning.
+
 ### 🎮 Reinforcement Learning: CartPole Optimization (IISc Capstone)
-- **Objective:** To explore and apply advanced Reinforcement Learning algorithms to solve a classic control problem and optimize agent performance.
-- **Methodology:** Applied algorithms like **REINFORCE, PPO, SAC, and DQN** on the CartPole environment. Improved model performance through custom reward functions and extensive hyperparameter tuning.
-- **Impact:** Achieved an **80%+ improvement in training efficiency** and identified SAC as the most stable and performant algorithm for this task.
-- **Tools Used:** `Python`, `TensorFlow`, `PyTorch`, `OpenAI Gym`
+- **Objective:** Optimize agent performance using advanced RL algorithms.
+- **Impact:** Achieved **80%+ improvement in training efficiency** using algorithms like **PPO, SAC, and DQN**. Identified SAC as the most stable performer.
+- **Tools Used:** `TensorFlow`, `PyTorch`, `OpenAI Gym`
 
----
-
-### 🔁 Bank Churn Prediction using Neural Networks
-- **Objective:** To identify bank customers at high risk of churning to enable proactive retention strategies.
-- **Methodology:** Built a deep learning-based **churn classifier** using an Artificial Neural Network (ANN) with dropout and batch normalization to prevent overfitting. The model was specifically tuned to maximize for **recall**.
-- **Impact:** The model achieved **75% recall**, successfully identifying a high percentage of at-risk customers who could be targeted with retention campaigns.
-- **Tools Used:** `Python`, `TensorFlow/Keras`, `Pandas`, `Scikit-learn`
-
----
+### 🔁 Bank Churn Prediction (Neural Networks)
+- **Objective:** Proactive retention of high-risk banking customers.
+- **Impact:** Built an ANN classifier tuned for **Recall**, achieving **75% recall** to successfully identify at-risk customers.
+- **Tools Used:** `TensorFlow/Keras`, `Pandas`
 
 ### ⏳ Forecasting of Antidiabetic Drug Prescriptions
-- **Objective:** To accurately forecast future sales of antidiabetic drugs to help with inventory and sales strategy planning.
-- **Methodology:** Developed a **SARIMA-based time series model** after performing trend/seasonality decomposition and rigorous diagnostics. Implemented rolling forecasts for validation.
-- **Impact:** The model successfully forecasted monthly drug prescriptions with a low **Mean Absolute Percentage Error (MAPE) of 5.7%**.
-- **Tools Used:** `Python`, `Statsmodels`, `Scikit-learn`, `Pandas`
+- **Objective:** Inventory planning for pharmaceutical sales.
+- **Impact:** Developed a **SARIMA model** with a low **MAPE of 5.7%**, enabling precise monthly stock planning.
+- **Tools Used:** `Statsmodels`, `Scikit-learn`
+
+### 💬 Twitter Sentiment Analysis (NLP)
+- **Objective:** Brand reputation monitoring via text classification.
+- **Impact:** Created a full NLP pipeline (TF-IDF + Random Forest) achieving **77% accuracy** in sentiment prediction.
+- **Tools Used:** `NLTK`, `SpaCy`, `Scikit-learn`
 
 ---
 
-### 💬 Twitter Sentiment Analysis with NLP
-- **Objective:** To classify the sentiment of tweets related to airline brands to gauge public opinion and inform marketing strategies.
-- **Methodology:** Created a full NLP pipeline for text classification, using **Random Forest**, **TF-IDF** for feature extraction, and **SMOTE** to handle class imbalance in the dataset.
-- **Impact:** Achieved **77% accuracy** in predicting sentiment, providing actionable insights for brand management and customer engagement.
-- **Tools Used:** `Python`, `Scikit-learn`, `NLTK`, `SpaCy`, `Matplotlib`
+## 🛠️ Technologies & Toolkit
+
+- **Product Engineering:** Next.js, React, Vercel, Tailwind CSS, Gemini AI API, WhatsApp Automation.
+- **Data & Logic:** Python, SQL, Pandas, NumPy.
+- **Machine Learning:** Scikit-learn, TensorFlow, PyTorch, Statsmodels.
+- **Tools:** VS Code, Git, GitHub, Jupyter, Postman.
 
 ---
 
-### 📊 Employee Retention & Performance Analytics
-- **Objective:** To understand the key drivers of employee attrition and provide data-driven recommendations to HR.
-- **Methodology:** Built and evaluated multiple **predictive models** (Logistic Regression, XGBoost, Random Forest) to identify factors leading to attrition.
-- **Impact:** Delivered key insights on retention levers and provided a tool for optimizing HR strategies.
-- **Tools Used:** `Python (Pandas, Scikit-learn)`, `Tableau`
-
----
-
-### 🏠 Socio-Economic Household Classification
-- **Objective:** To classify households (Urban vs. Rural) from Indian survey data and derive insights that could inform public policy.
-- **Methodology:** Engineered an end-to-end ML pipeline featuring a tuned **XGBoost ensemble** and a **Voting Classifier**. Performed feature importance analysis.
-- **Impact:** The model achieved **84% accuracy**, and the derived feature importance insights provided a valuable resource for potential policymaking.
-- **Tools Used:** `Python`, `Scikit-learn`, `XGBoost`, `Keras`, `PCA`, `SMOTE`
-
----
-
-### 🧬 Diabetes Risk Prediction using Health Indicators
-- **Objective:** To build a model to predict the risk of diabetes based on key health indicators from a large-scale survey.
-- **Methodology:** Built and compared multiple ML models (Logistic Regression, XGBoost, Ensemble) on over **106,000 records** from the BRFSS dataset.
-- **Impact:** The final model achieved a strong **ROC-AUC score of 0.82**, providing a reliable tool for identifying high-risk individuals.
-- **Tools Used:** `Python (Scikit-learn, TensorFlow)`, `SAS Enterprise Miner`
-
----
-
-### 🎬 IMDb Movie Data – Web Scraping & Analysis
-- **Objective:** To gather and analyze data on the top 1000 movies from IMDb to uncover trends in the film industry.
-- **Methodology:** Built a **web scraper using BeautifulSoup** to collect the data and then performed comprehensive Exploratory Data Analysis (EDA) and visualization.
-- **Impact:** Analyzed and presented trends in movie ratings, box office earnings, top directors, and release patterns over the years.
-- **Tools Used:** `Python`, `BeautifulSoup`, `Pandas`, `Matplotlib`, `Seaborn`
-
----
-
-## 🛠️ Technologies & Skills
-
-- **Languages:** Python, SQL
-- **Machine Learning:** Scikit-learn, TensorFlow, Keras, PyTorch, Statsmodels, NLTK, SpaCy
-- **Data Manipulation & Viz:** Pandas, NumPy, Matplotlib, Seaborn, Tableau
-- **Development & Tools:** Git, GitHub, Jupyter, Google Colab, VS Code, SAS Enterprise Miner
-
----
-
-### 🏦 ALM & Treasury Analytics Engine for Indian Banking
-<p>
-  <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.11"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/>
-  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License: MIT"/>
-</p>
-
-- **Objective:** A comprehensive simulation of a Business Analyst's role in developing an **Asset-Liability Management (ALM)** and Treasury analytics solution for a mid-sized Indian bank, analyzing **Interest Rate Risk in the Banking Book (IRRBB)** and **Liquidity Risk**.
-- **Problem Statement:** Simulated a scenario where "Indus National Bank" struggled with manual, spreadsheet-based ALM reporting that was slow, error-prone, and couldn't provide the Asset-Liability Committee (ALCO) with timely risk insights.
-- **Methodology:** Developed a Python-based analytical engine following **BCBS 239** principles, featuring:
-  - **Data Validation:** Robust pre-checks ensuring source data integrity
-  - **IRRBB Gap Analysis:** Traditional Gap Reports bucketing rate-sensitive assets/liabilities across time horizons
-  - **NII Sensitivity Analysis:** Quantifying Net Interest Income impact under +100 bps rate shock scenarios
-  - **LCR Calculation:** Basel III Liquidity Coverage Ratio calculation with HQLA identification and stressed outflow simulation
-- **Key Business Insights:**
-  - Bank identified as **Liability-Sensitive** to interest rate risk (negative gap in short-term buckets)
-  - A +100 bps rate hike would **decrease NII by ₹3.58 Crores**
-  - Strong liquidity position with **LCR at ~725%** (well above RBI's 100% minimum)
-- **Tools Used:** `Python 3.11`, `Pandas`, `NumPy`
-- **[📁 View Project](./ALM_Project)**
-
----
----
-
-Feel free to explore the project folders. Thank you for visiting!
+Feel free to explore the project folders to see how I think and build. Thank you for visiting!
