@@ -29,14 +29,17 @@ Here are the key systems I have built. These range from "0-to-1" product prototy
 
 ---
 
-### 🩺 Yukti OS (The Clinical Operating System) 
+### 🩺 Yukti OS (The Clinical Operating System) - *[Prototype / WIP]*
+
+> **Status:** Active Prototype (Demo Version) built to validate clinical logic and AI flows.
+
 - **Objective:** To solve "Context Blindness" in elderly care by building a "Digital Clinical Twin" ecosystem.
-- **The Build:** Engineered a context-aware OS with 5 core modules:
+- **The Build:** Engineered a context-aware OS prototype featuring 5 core modules:
   1. A **15-point Geriatric Risk Engine** (Digitizing clinical intake).
   2. An **AI-powered Smart Report Analyzer** (using **Gemini 2.0 Flash**).
   3. A **Medication & Wellness Tracker** (Hydration, Mood, Vitals).
   4. A **WhatsApp Companion Bot** for zero-friction senior engagement.
-- **Impact:** Demonstrated end-to-end execution from **Clinical Logic** to **Edge AI Deployment**, delivering a fully functional product over a single weekend.
+- **Impact:** Demonstrated end-to-end execution from **Clinical Logic** to **Edge AI Deployment**, delivering a fully functional "0-to-1" proof of concept over a single weekend.
 - **Live Demo:** [Yukti OS](https://yukti-os.vercel.app/) *(Passkey: praan2026)*
 - **Tools Used:** `Next.js`, `React`, `Gemini 2.0`, `Vercel`, `Tailwind CSS`
 
