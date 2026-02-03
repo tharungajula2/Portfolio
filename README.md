@@ -1,107 +1,124 @@
-# Tharun Kumar Gajula's Portfolio | Product, Ops & Data
+# Tharun Kumar Gajula | Product - Data - Ops
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-  <img src="https://img.shields.io/badge/Gemini_AI-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white" alt="Gemini AI"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=sql&logoColor=white" alt="SQL"/>
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
-</p>
+<div align="center">
 
----
+[![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![Gemini AI](https://img.shields.io/badge/Gemini_2.0_Flash-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white)](https://deepmind.google/technologies/gemini/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![CVXPY](https://img.shields.io/badge/CVXPY-Optimization-red?style=for-the-badge)](https://www.cvxpy.org/)
 
-### Hi there! 👋 I'm Tharun Kumar Gajula.
+**AI & Analytics Consultant** | **Quant Developer** | **Full-Stack Prototyper**
 
-Welcome to my portfolio! I am a **Product-Minded Technical Builder** with over 5 years of experience bridging **Business Strategy** and **Technical Execution**.
+[LinkedIn](https://linkedin.com/in/tharungajula) • [Email](mailto:your_email@example.com) • [Portfolio Website](your_website_link)
 
-My background is multidisciplinary—spanning **Engineering, Finance (Credit Risk), and Deep Learning (IISc)**. I don't just analyze data; I build the **Operational Infrastructure** (Internal Tools, Dashboards, Logic Engines, and AI Workflows) that allows teams to scale.
-
-This repository showcases my evolution from a Data Analyst to a **Full-Stack Operator**, featuring projects ranging from **Digital Clinical Twins (Yukti OS)** to **Risk Scoring Models** and **Automated Financial Engines**.
-
-- 🔗 **Connect with me on [LinkedIn](http://linkedin.com/in/tharungajula)**
+</div>
 
 ---
 
-## 🚀 Key Projects (Builder's Lab)
+## 👨‍💻 The "Builder" Manifesto
 
-Here are the key systems I have built. These range from "0-to-1" product prototypes to deep analytical models.
+I bridge the gap between **Business Strategy** and **Technical Execution**.
 
----
+My background is multidisciplinary—spanning **Engineering**, **Finance (Credit Risk/MBA)**, and **Deep Learning (IISc)**. I don't just "analyze" data; I build end-to-end systems that solve complex operational problems.
 
-### 🩺 Yukti OS (The Clinical Operating System) - *[Prototype / WIP]*
-
-> **Status:** Active Prototype (Demo Version) built to validate clinical logic and AI flows.
-
-- **Objective:** To solve "Context Blindness" in elderly care by building a "Digital Clinical Twin" ecosystem.
-- **The Build:** Engineered a context-aware OS prototype featuring 5 core modules:
-  1. A **15-point Geriatric Risk Engine** (Digitizing clinical intake).
-  2. An **AI-powered Smart Report Analyzer** (using **Gemini 2.0 Flash**).
-  3. A **Medication & Wellness Tracker** (Hydration, Mood, Vitals).
-  4. A **WhatsApp Companion Bot** for zero-friction senior engagement.
-- **Impact:** Demonstrated end-to-end execution from **Clinical Logic** to **Edge AI Deployment**, delivering a fully functional "0-to-1" proof of concept over a single weekend.
-- **Live Demo:** [Yukti OS](https://yukti-os.vercel.app/) *(Passkey: praan2026)*
-- **Tools Used:** `Next.js`, `React`, `Gemini 2.0`, `Vercel`, `Tailwind CSS`
+Whether it is architecting a **Generative AI Healthcare OS** (Yukti), engineering a **Convex Optimization Trading Engine**, or automating **Bank Treasury Logic**, I specialize in translating abstract business goals into deployable, logic-driven software.
 
 ---
 
-### 🧠 Credit Risk Modeling & Application Scorecard
-- **Objective:** To automate high-stakes lending decisions by quantifying user risk.
-- **Methodology:** Built an end-to-end **"Probability of Default" (PD) scorecard**. Developed a logistic regression model to assign risk scores based on user attributes, mirroring the logic required for clinical risk stratification.
-- **Impact:** Optimized decision thresholds for loan approvals, proving the ability to build **transparent, defensible logic engines** for operations.
-- **Tools Used:** `Python`, `Scikit-learn`, `SQL`, `Excel`
+## 🏆 Flagship Projects (The "Proof of Work")
+
+### 1. 🩺 [Yukti OS: Context-Aware Health Operating System](Link_To_Repo)
+**Role:** Product Architect & Lead Developer  
+**Stack:** `Next.js` • `Gemini 2.0 Flash` • `React` • `Vercel` • `LocalStorage`
+
+> **The Problem:** Standard health apps suffer from "Context Blindness." They see "Sugar 160" as bad, without knowing the user is 75 years old with high fall risk.
+>
+> **The Solution:** A **Digital Clinical Twin** ecosystem that interprets real-time data through the lens of a senior's specific clinical profile.
+
+<details>
+<summary><b>🔻 Click to see Technical Architecture & Modules</b></summary>
+<br>
+
+* **Multimodal RAG Pipeline:** Ingests unstructured medical reports via **Gemini 2.0 Flash**, comparing new biomarkers against the user's historical "Clinical Context" to detect trends.
+* **Geriatric Risk Engine:** Implemented a 15-point clinical assessment logic (Metabolic, Physical, Cognitive) that categorizes seniors into dynamic risk zones (Green/Amber/Red).
+* **Optimistic UI & Operations:** Built a "Clinic Hub" with instant booking feedback and financial wallet simulations using React State management.
+* **Conversational AI:** Integrated a "Nani-Bot" (WhatsApp simulation) for zero-friction medication logging.
+
+</details>
 
 ---
 
-### 🧬 Diabetes Risk Prediction on 106k+ Records
-- **Objective:** To identify early-stage chronic disease risk using large-scale physiological data.
-- **Methodology:** Developed a scalable ML pipeline to predict diabetes risk across **106,000+ health records** using biomarkers like BMI, Age, and Blood Pressure.
-- **Impact:** Achieved an **ROC-AUC of 0.82** with an optimized ensemble model, demonstrating the ability to handle noisy health data at scale.
-- **Tools Used:** `Python (Scikit-learn)`, `Pandas`, `Matplotlib`
+### 2. 📉 [Quant Equity Engine: Optimization & Turnover Control](Link_To_Repo)
+**Role:** Quant Developer  
+**Stack:** `Python` • `CVXPY` • `Pyfolio` • `SciPy` • `Pandas`
+
+> **The Problem:** High-performing trading strategies often fail due to excessive transaction costs (Turnover).
+>
+> **The Solution:** A modular backtesting framework that uses **Convex Optimization** to minimize weight drift while strictly controlling turnover.
+
+<details>
+<summary><b>🔻 Click to see Math & Optimization Logic</b></summary>
+<br>
+
+* **Turnover Control Optimization (`to_control_opt.py`):** Implemented **L1 and L2 Norm optimizations** using `CVXPY`. The engine solves for new portfolio weights that minimize distance from the target model while adhering to hard turnover constraints.
+* **Cross-Sectional Strategy (`generic_cross_section_strats.py`):** A factor-based ranking engine (Value, Momentum, Quality) with sector-neutral filtering logic.
+* **Robustness Framework (`PerfRob_Anal_Framwrk_V3.py`):** Automated stress testing using Rolling CAPM regressions, Multi-Factor Attribution, and Drawdown Analysis.
+
+</details>
 
 ---
 
-### 🏦 ALM & Treasury Analytics Engine (Simulated)
-- **Objective:** To replace manual spreadsheets with an automated **Asset-Liability Management (ALM)** engine for a mid-sized Indian bank.
-- **Methodology:** Developed a Python-based analytical engine following **BCBS 239** principles. Features include **IRRBB Gap Analysis**, **NII Sensitivity Analysis**, and **LCR (Liquidity Coverage Ratio)** calculation.
-- **Impact:** Simulated a scenario where the tool identified a **₹3.58 Crore** risk exposure from a rate hike, enabling proactive hedging.
-- **Tools Used:** `Python 3.11`, `Pandas`, `NumPy`
+### 3. 🏦 [ALM & Treasury Analytics Engine](Link_To_Repo)
+**Role:** Financial Engineer / Python Developer  
+**Stack:** `Python 3.11` • `NumPy` • `Regulatory Logic (BCBS 239)`
+
+> **The Problem:** Banks rely on error-prone spreadsheets for critical Asset-Liability Management (ALM).
+>
+> **The Solution:** A Python-based engine that automates regulatory reporting and stress testing.
+
+* **IRRBB Gap Analysis:** Programmatic bucketing of rate-sensitive assets/liabilities to identify duration mismatches.
+* **NII Sensitivity Modeling:** Simulates P&L impact under a **+100bps parallel rate shock**.
+* **Liquidity Coverage Ratio (LCR):** Simulates Basel III HQLA vs. Stressed Outflows.
 
 ---
 
-## 📊 Data Intelligence & ML Projects
+## 🧠 Core AI & Machine Learning Portfolio
 
-Below is a collection of my specialized work in Analytics and Machine Learning.
-
-### 🎮 Reinforcement Learning: CartPole Optimization (IISc Capstone)
-- **Objective:** Optimize agent performance using advanced RL algorithms.
-- **Impact:** Achieved **80%+ improvement in training efficiency** using algorithms like **PPO, SAC, and DQN**. Identified SAC as the most stable performer.
-- **Tools Used:** `TensorFlow`, `PyTorch`, `OpenAI Gym`
-
-### 🔁 Bank Churn Prediction (Neural Networks)
-- **Objective:** Proactive retention of high-risk banking customers.
-- **Impact:** Built an ANN classifier tuned for **Recall**, achieving **75% recall** to successfully identify at-risk customers.
-- **Tools Used:** `TensorFlow/Keras`, `Pandas`
-
-### ⏳ Forecasting of Antidiabetic Drug Prescriptions
-- **Objective:** Inventory planning for pharmaceutical sales.
-- **Impact:** Developed a **SARIMA model** with a low **MAPE of 5.7%**, enabling precise monthly stock planning.
-- **Tools Used:** `Statsmodels`, `Scikit-learn`
-
-### 💬 Twitter Sentiment Analysis (NLP)
-- **Objective:** Brand reputation monitoring via text classification.
-- **Impact:** Created a full NLP pipeline (TF-IDF + Random Forest) achieving **77% accuracy** in sentiment prediction.
-- **Tools Used:** `NLTK`, `SpaCy`, `Scikit-learn`
+| Domain | Project | Tech Stack | Impact |
+| :--- | :--- | :--- | :--- |
+| **RL / Deep Learning** | **CartPole Agent Optimization** (IISc Capstone) | `PyTorch`, `OpenAI Gym`, `PPO`, `SAC`, `DQN` | Optimized custom reward functions to improve training efficiency by **80%**. |
+| **Predictive ML** | **Credit Risk PD Scorecard** | `Scikit-learn`, `Logistic Regression` | Built a Probability of Default (PD) scorecard with calibrated thresholds for lending decisions. |
+| **Time Series** | **Pharma Inventory Forecasting** | `Statsmodels`, `SARIMA` | Achieved **5.7% MAPE** in forecasting antidiabetic drug prescriptions, enabling precise inventory planning. |
+| **NLP** | **Twitter Sentiment Analysis** | `SpaCy`, `NLTK`, `TF-IDF` | End-to-end pipeline handling class imbalance (SMOTE) to achieve **77% accuracy** in brand sentiment. |
+| **Health ML** | **Diabetes Risk Prediction** | `XGBoost`, `Ensemble Learning` | Scalable pipeline on **106k+ records** achieving **0.82 ROC-AUC**. |
 
 ---
 
-## 🛠️ Technologies & Toolkit
+## 🛠 Technical Skills Matrix
 
-- **Product Engineering:** Next.js, React, Vercel, Tailwind CSS, Gemini AI API, WhatsApp Automation.
-- **Data & Logic:** Python, SQL, Pandas, NumPy.
-- **Machine Learning:** Scikit-learn, TensorFlow, PyTorch, Statsmodels.
-- **Tools:** VS Code, Git, GitHub, Jupyter, Postman.
+| Category | Skills & Tools |
+| :--- | :--- |
+| **AI & GenAI** | LLM Integration (**Gemini 2.0**), RAG Architectures, Prompt Engineering, LangChain Concepts |
+| **Quant & Math** | **CVXPY** (Convex Optimization), **Pyfolio** (Backtesting), Statistical Modeling, Risk Analytics (IRRBB, LCR) |
+| **Data Science** | Python, Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch, SQL |
+| **Product Eng** | Next.js (App Router), React, Tailwind CSS, Vercel, Node.js (Basic) |
+| **Visual Strategy**| Canva (Advanced), Figma (Basic), Notion, Data Storytelling |
 
 ---
 
-Feel free to explore the project folders to see how I think and build. Thank you for visiting!
+## 🎓 Education
+
+* **PG Level Executive Programme in Deep Learning** | *Indian Institute of Science (IISc)*
+* **MBA, Banking & Finance** | *National Institute of Bank Management (NIBM)*
+* **B.Tech, Mechanical Engineering** | *GRIET (JNTUH)*
+
+---
+
+<div align="center">
+
+*I am open to roles in **AI Product Management**, **Technical Program Management**, and **Data Science/Quant Development**.*
+
+**[⬆ Back to Top](#-tharun-kumar-gajula--product-minded-technical-builder)**
+
+</div>
