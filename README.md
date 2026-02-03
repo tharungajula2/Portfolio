@@ -10,7 +10,6 @@
 
 **AI & Analytics Consultant** | **Quant Developer** | **Full-Stack Prototyper**
 
-[LinkedIn](https://linkedin.com/in/tharungajula) • [Email](mailto:your_email@example.com) • [Portfolio Website](your_website_link)
 
 </div>
 
