@@ -1,8 +1,8 @@
-# Tharun Kumar Gajula | Product • Data • Ops
+# Tharun Kumar Gajula | Digital Solutions • AI & Analytics • Systems Thinking
 
 <div align="center">
 
-**AI & Analytics Consultant** | **Quant Developer** | **Full-Stack Prototyper**
+**Digital Solutions** | **AI & Analytics** | **Systems Thinking**
 
 📍 *Bengaluru, India*
 
@@ -10,13 +10,14 @@
 
 ---
 
-## 👋 About Me
+## 👋 The Builder's Manifesto
 
 I bridge the gap between **Business Strategy** and **Technical Execution**.
 
-My background is multidisciplinary—spanning **Engineering**, **Finance (Credit Risk)**, and **Deep Learning (IISc)**. I don't just "analyze" data; I build end-to-end systems that solve complex operational problems.
+My background is multidisciplinary—spanning **Engineering**, **Finance**, and **Deep Learning**. I don't just "analyze" data; I build end-to-end systems that solve complex operational problems.
 
-Whether it is automating a manual report, building a predictive model, or designing a full-stack prototype, I focus on logic, efficiency, and making things work.
+* **✓ Proven:** Designing End-to-End ML Pipelines, Quant Automation Engines, Rapid Prototypes, and Time-Series Forecasting models.
+* **Currently:** Exploring the intersection of **Systems, Biology, and Code**.
 
 ---
 
