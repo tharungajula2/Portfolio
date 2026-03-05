@@ -16,8 +16,7 @@ I bridge the gap between **Business Strategy** and **Technical Execution**.
 
 My background is multidisciplinary—spanning **Engineering**, **Finance**, and **Deep Learning**. I don't just "analyze" data; I build end-to-end systems that solve complex operational problems.
 
-* **✓ Proven:** Designing End-to-End ML Pipelines, Quant Automation Engines, Rapid Prototypes, and Time-Series Forecasting models.
-* **Currently:** Exploring the intersection of **Systems, Biology, and Code**.
+* **✓ Experience:** Designing End-to-End ML Pipelines, Quant Automation Engines, Rapid Prototypes, and Time-Series Forecasting models.
 
 ---
 
