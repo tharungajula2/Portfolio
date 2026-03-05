@@ -1,8 +1,8 @@
-# Tharun Kumar Gajula | Digital Solutions • AI & Analytics • Systems Thinking
+# Tharun Kumar Gajula
 
 <div align="center">
 
-**Digital Solutions** | **AI & Analytics** | **Systems Thinking**
+**Product Management** | **AI & Analytics** | **Digital Solutions**
 
 📍 *Bengaluru, India*
 
