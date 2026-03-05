@@ -18,18 +18,17 @@ I am a Risk Analytics professional bridging the gap between **rigorous regulator
 
 My background is rooted in commercial banking workflows, credit risk management, and deep learning. I don't just analyze data; I develop and validate predictive models that turn complex financial datasets into actionable risk strategies. My builds focus on ensuring compliance with global standards (Basel III, SR 11-7, BCBS 239) while leveraging modern ML architectures.
 
-* **✓ Core Focus:** Credit Risk Scorecards (PD/LGD/EAD), Model Validation, ALM Automation, and End-to-End ML Pipelines.
+* **✓ Core Focus:** Credit Risk Scorecards (PD/LGD/EAD), Model Validation, and End-to-End ML Pipelines.
 
 ---
 
 ## 🛠 Project Archive (Builds & Validations)
 
-A curated collection of risk engines, predictive models, and classification pipelines I have engineered.
+A curated collection of predictive models, classification pipelines, and validation frameworks I have engineered.
 
 | **Domain** | **Project** | **Stack** | **Description** |
 | :--- | :--- | :--- | :--- |
 | **Credit Risk** | **[IRB Credit Scorecard](LINK_HERE)** | `Python`, `XGBoost` | Developed & validated PD/EAD/LGD models with strict KS/AUC validation and PSI stability monitoring. |
-| **ALM / Quant** | **[Treasury Analytics Engine](LINK_HERE)** | `Python`, `Pandas` | Automated IRRBB and Liquidity Risk reporting, generating Gap Analysis, NII Sensitivity, and Basel III LCR. |
 | **Deep Learning** | **[ANN Customer Churn](LINK_HERE)** | `TensorFlow/Keras` | Built an Artificial Neural Network classifying bank customer churn, optimizing thresholds for 75% recall. |
 | **Predictive ML** | **[HR Attrition Modeling](LINK_HERE)** | `Scikit-learn`, `XGBoost` | Compared LogReg, Random Forest, and XGBoost to achieve 96% accuracy and extract actionable feature importances. |
 | **Data/Ensembles**| **[Socio-Economic Classifier](LINK_HERE)** | `XGBoost Ensemble`| End-to-end pipeline handling noisy national survey datasets to classify household status (84% accuracy). |
