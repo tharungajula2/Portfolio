@@ -4,7 +4,7 @@
 
 <div align="center">
 
-**Product Management** | **AI & Analytics** | **Digital Solutions**
+**Risk Analytics** | **Credit Modeling** | **Machine Learning**
 
 📍 *Bengaluru, India*
 
@@ -14,42 +14,40 @@
 
 ## 👋 The Builder's Manifesto
 
-I bridge the gap between **Business Strategy** and **Technical Execution**.
+I am a Risk Analytics professional bridging the gap between **rigorous regulatory frameworks** and **advanced machine learning execution**. 
 
-My background is multidisciplinary—spanning **Engineering**, **Finance**, and **Deep Learning**. I don't just "analyze" data; I build end-to-end systems that solve complex operational problems.
+My background is rooted in commercial banking workflows, credit risk management, and deep learning. I don't just analyze data; I develop and validate predictive models that turn complex financial datasets into actionable risk strategies. My builds focus on ensuring compliance with global standards (Basel III, SR 11-7, BCBS 239) while leveraging modern ML architectures.
 
-* **✓ Experience:** Designing End-to-End ML Pipelines, Quant Automation Engines, Rapid Prototypes, and Time-Series Forecasting models.
+* **✓ Core Focus:** Credit Risk Scorecards (PD/LGD/EAD), Model Validation, ALM Automation, and End-to-End ML Pipelines.
 
 ---
 
-## 🛠 Project Archive (Builds & Experiments)
+## 🛠 Project Archive (Builds & Validations)
 
-A collection of systems, models, and prototypes I have engineered.
+A curated collection of risk engines, predictive models, and classification pipelines I have engineered.
 
-| **Category** | **Project** | **Stack** | **Description** |
+| **Domain** | **Project** | **Stack** | **Description** |
 | :--- | :--- | :--- | :--- |
-| **Product Eng** | **[Yukti OS (Prototype)](LINK_HERE)** | `Next.js`, `Gemini Flash` | A "Context-Aware" Health OS prototype that interprets metrics through a senior's clinical profile. |
-| **Quant / Fin** | **[Quant Equity Engine](LINK_HERE)** | `Python`, `CVXPY` | Convex optimization framework to minimize weight drift while controlling transaction turnover. |
-| **Quant / Fin** | **[ALM Treasury Engine](LINK_HERE)** | `Python`, `NumPy` | Automating regulatory reporting (IRRBB, LCR) and stress testing for banking systems. |
-| **Reinforcement Learning** | **CartPole Optimization** | `PyTorch`, `PPO/SAC` | Optimized custom reward functions to improve RL agent training efficiency by 80%. |
-| **Predictive ML** | **Credit Risk Scorecard** | `Scikit-learn` | Built a Probability of Default (PD) scorecard with calibrated thresholds for lending decisions. |
-| **Time Series** | **Pharma Forecasting** | `SARIMA`, `Statsmodels` | Achieved 5.7% MAPE in forecasting antidiabetic drug prescriptions for inventory planning. |
-| **NLP** | **Twitter Sentiment Analysis** | `SpaCy`, `TF-IDF` | End-to-end pipeline handling class imbalance (SMOTE) to achieve 77% accuracy. |
-| **Health ML** | **Diabetes Risk Prediction** | `XGBoost` | Scalable pipeline on 106k+ records achieving 0.82 ROC-AUC. |
+| **Credit Risk** | **[IRB Credit Scorecard](LINK_HERE)** | `Python`, `XGBoost` | Developed & validated PD/EAD/LGD models with strict KS/AUC validation and PSI stability monitoring. |
+| **ALM / Quant** | **[Treasury Analytics Engine](LINK_HERE)** | `Python`, `Pandas` | Automated IRRBB and Liquidity Risk reporting, generating Gap Analysis, NII Sensitivity, and Basel III LCR. |
+| **Deep Learning** | **[ANN Customer Churn](LINK_HERE)** | `TensorFlow/Keras` | Built an Artificial Neural Network classifying bank customer churn, optimizing thresholds for 75% recall. |
+| **Predictive ML** | **[HR Attrition Modeling](LINK_HERE)** | `Scikit-learn`, `XGBoost` | Compared LogReg, Random Forest, and XGBoost to achieve 96% accuracy and extract actionable feature importances. |
+| **Data/Ensembles**| **[Socio-Economic Classifier](LINK_HERE)** | `XGBoost Ensemble`| End-to-end pipeline handling noisy national survey datasets to classify household status (84% accuracy). |
+| **NLP / AML** | **[Unstructured Text Pipeline](LINK_HERE)** | `NLTK`, `TF-IDF` | Classification pipeline (77% acc) demonstrating foundational techniques used in adverse media screening. |
 
 ---
 
-## 🧰 Technical Skills
+## 🧰 Technical Arsenal
 
-* **Product & Ops:** Product Strategy, Requirement Gathering (BRD), Agile/Scrum, Workflow Automation.
-* **AI & Engineering:** Python, Next.js (App Router), PyTorch, LLM Integration, SQL.
-* **Data & Analytics:** Risk Analytics (IRRBB/LCR), PowerBI, Pandas, Statistical Modeling.
-* **Tools:** VS Code, GitHub, Vercel, Notion, JIRA.
+* **Credit Risk & Validation:** Credit Scoring (PD, LGD, EAD), Model Validation (KS, AUC, Gini), Stability Monitoring (PSI, CSI), Backtesting, Regulatory Frameworks (Basel III/IV, IFRS 9), Model Governance (SR 11-7), BCBS 239 lineage.
+* **AI & Modeling:** Python (Pandas, NumPy, Scikit-learn), Statistical Inference, Machine Learning (Random Forest, XGBoost), Deep Learning (ANNs), NLP.
+* **Data & Automation:** SQL, KNIME, Power BI, Data Quality & Validation, Workflow Automation, Clear Model Documentation.
+* **Tools:** VS Code, Jupyter Notebooks, GitHub, MS Office Suite, Postman, JIRA.
 
 ---
 
 <div align="center">
 
-*Open to roles in **AI Product Management**, **Technical Program Management**, and **Data Science/Quant Development**.*
+*Open to roles in **Quantitative Risk**, **Credit Model Validation**, and **Machine Learning Analytics**.*
 
 </div>
