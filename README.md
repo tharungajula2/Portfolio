@@ -1,3 +1,5 @@
+<div align="center">
+
 # Tharun Kumar Gajula
 
 <div align="center">
