@@ -2,51 +2,143 @@
 
 # Tharun Kumar Gajula
 
-<div align="center">
+**Quant Risk • Credit Analytics • Machine Learning • NLP • Time Series • Quant Finance**
 
-**Risk Analytics** | **Credit Modeling** | **Machine Learning**
-
-📍 *Bengaluru, India*
+Portfolio of **8 end-to-end projects** spanning credit risk, classification, reinforcement learning, forecasting, and portfolio optimization.
 
 </div>
 
 ---
 
-## 👋 The Builder's Manifesto
+## About This Repository
 
-I am a Risk Analytics professional bridging the gap between **rigorous regulatory frameworks** and **advanced machine learning execution**. 
+This repository is a curated portfolio of my core quantitative and machine learning projects.
 
-My background is rooted in commercial banking workflows, credit risk management, and deep learning. I don't just analyze data; I develop and validate predictive models that turn complex financial datasets into actionable risk strategies. My builds focus on ensuring compliance with global standards (Basel III, SR 11-7, BCBS 239) while leveraging modern ML architectures.
+It is built around **8 full project notes**, each written as a structured masterclass rather than a notebook dump. The goal is to show not only what I built, but also how I think through:
 
-* **✓ Core Focus:** Credit Risk Scorecards (PD/LGD/EAD), Model Validation, and End-to-End ML Pipelines.
+- business problem framing
+- data cleaning and preprocessing
+- model selection and evaluation
+- interpretation and trade-offs
+- limitations, validation, and practical use cases
 
----
-
-## 🛠 Project Archive (Builds & Validations)
-
-A curated collection of predictive models, classification pipelines, and validation frameworks I have engineered.
-
-| **Domain** | **Project** | **Stack** | **Description** |
-| :--- | :--- | :--- | :--- |
-| **Credit Risk** | **[IRB Credit Scorecard](LINK_HERE)** | `Python`, `XGBoost` | Developed & validated PD/EAD/LGD models with strict KS/AUC validation and PSI stability monitoring. |
-| **Deep Learning** | **[ANN Customer Churn](LINK_HERE)** | `TensorFlow/Keras` | Built an Artificial Neural Network classifying bank customer churn, optimizing thresholds for 75% recall. |
-| **Predictive ML** | **[HR Attrition Modeling](LINK_HERE)** | `Scikit-learn`, `XGBoost` | Compared LogReg, Random Forest, and XGBoost to achieve 96% accuracy and extract actionable feature importances. |
-| **Data/Ensembles**| **[Socio-Economic Classifier](LINK_HERE)** | `XGBoost Ensemble`| End-to-end pipeline handling noisy national survey datasets to classify household status (84% accuracy). |
-| **NLP / AML** | **[Unstructured Text Pipeline](LINK_HERE)** | `NLTK`, `TF-IDF` | Classification pipeline (77% acc) demonstrating foundational techniques used in adverse media screening. |
+The portfolio is designed to feel like **one connected body of work**, not a random collection of experiments.
 
 ---
 
-## 🧰 Technical Arsenal
+## Portfolio Snapshot
 
-* **Credit Risk & Validation:** Credit Scoring (PD, LGD, EAD), Model Validation (KS, AUC, Gini), Stability Monitoring (PSI, CSI), Backtesting, Regulatory Frameworks (Basel III/IV, IFRS 9), Model Governance (SR 11-7), BCBS 239 lineage.
-* **AI & Modeling:** Python (Pandas, NumPy, Scikit-learn), Statistical Inference, Machine Learning (Random Forest, XGBoost), Deep Learning (ANNs), NLP.
-* **Data & Automation:** SQL, KNIME, Power BI, Data Quality & Validation, Workflow Automation, Clear Model Documentation.
-* **Tools:** VS Code, Jupyter Notebooks, GitHub, MS Office Suite, Postman, JIRA.
+- **8 portfolio projects**
+- **Domains covered:** credit risk, customer analytics, HR analytics, socio-economic classification, NLP, reinforcement learning, forecasting, and quant finance
+- **Problem types covered:** binary classification, multi-class classification, sequential decision-making, time-series forecasting, and portfolio construction
+- **Model families covered:** logistic regression, scorecards, decision trees, random forests, XGBoost, neural networks, vector-space NLP pipelines, SARIMA, RL algorithms, and Modern Portfolio Theory workflows
+
+---
+
+## Featured Projects
+
+| Project | Area | What it covers |
+|---|---|---|
+| **[Lending Club Credit Risk Masterclass](./brain/1_lending_club_credit_risk_masterclass.md)** | Credit Risk | End-to-end retail credit risk workflow covering **PD, LGD, EAD, Expected Loss, scorecards, validation, monitoring, CECL, and stress testing**. |
+| **[Bank Churn Prediction with Neural Networks](./brain/5_bank_churn_neural_networks_masterclass.md)** | Banking / Retention Analytics | Binary classification project using **neural networks, imbalance handling, dropout, optimizer comparison, ROC-AUC, and recall-focused decision logic**. |
+| **[Employee Retention & Performance Analytics](./brain/6_employee_retention_tree_models_masterclass.md)** | HR Analytics / Tabular ML | Attrition modeling with **logistic regression, decision trees, random forests, feature engineering, grid search, and model comparison**. |
+| **[Socio-Economic Household Classification](./brain/7_socio_economic_household_classification_masterclass.md)** | Large-Scale Tabular ML | Noisy real-world classification workflow with **heavy preprocessing, missing-value handling, outlier treatment, PCA, SMOTE, random forests, and XGBoost**. |
+| **[Twitter Sentiment Analysis with NLP](./brain/8_twitter_sentiment_nlp_masterclass.md)** | NLP / Text Analytics | Multi-class sentiment classification using **text cleaning, tokenization, lemmatization, CountVectorizer, TF-IDF, and Random Forests**. |
+| **[CartPole Reinforcement Learning Masterclass](./brain/11_cartpole_reinforcement_learning_masterclass.md)** | Reinforcement Learning | RL project covering **REINFORCE, baseline subtraction, custom rewards, PPO, DQN, Actor-Critic, SAC, and Twin-Q**. |
+| **[Antidiabetic Drug Prescription Forecasting](./brain/12_antidiabetic_drug_prescription_forecasting_masterclass.md)** | Time-Series Forecasting | Classical forecasting workflow using **STL decomposition, stationarity testing, SARIMA, rolling forecasts, baseline comparison, and MAPE**. |
+| **[NIFTY 100 Portfolio Optimization](./brain/13_nifty100_portfolio_optimization_mpt_masterclass.md)** | Quant Finance / Portfolio Construction | Portfolio optimization project covering **log returns, covariance, Monte Carlo portfolio weights, Sharpe-ratio-style selection, and efficient-frontier thinking**. |
+
+---
+
+## What This Portfolio Demonstrates
+
+### 1. Range across quantitative problem types
+This portfolio is not limited to one dataset style or one model family. It includes:
+
+- structured tabular classification
+- scorecard-style credit risk modeling
+- NLP on unstructured text
+- reinforcement learning in a control environment
+- classical time-series forecasting
+- portfolio optimization and risk-return analysis
+
+### 2. Strong emphasis on workflow, not just algorithms
+Across projects, I focus on the full modeling pipeline:
+
+- understanding the business question
+- preparing the data correctly
+- choosing suitable evaluation metrics
+- comparing alternatives instead of forcing one model everywhere
+- explaining the result in practical terms
+
+### 3. Repeated attention to model trade-offs
+A major theme across the portfolio is that **the best model depends on the decision problem**.
+
+Examples include:
+
+- recall vs precision trade-offs in churn and attrition work
+- interpretability vs flexibility in scorecards and tree-based models
+- baseline comparison in forecasting
+- risk-adjusted return vs raw return in portfolio construction
+- reward design and convergence stability in reinforcement learning
+
+### 4. Clear technical documentation
+Each project is documented as a long-form markdown note so that the work is easy to review, discuss, and extend.  
+That documentation style is intentional: I want the portfolio to be readable by both technical and non-technical reviewers.
+
+---
+
+## Core Skills Reflected Across the Projects
+
+**Risk & Modeling**
+- Credit risk modeling
+- PD / LGD / EAD / Expected Loss
+- Scorecards and validation thinking
+- Monitoring and stability analysis
+- Forecasting and quant-finance basics
+
+**Machine Learning**
+- Logistic regression
+- Decision trees and random forests
+- XGBoost
+- Neural networks
+- Reinforcement learning fundamentals
+- Model comparison and evaluation
+
+**Data & Analytics**
+- Data preprocessing and feature engineering
+- Missing-value handling and outlier treatment
+- Imbalance handling
+- Text vectorization and NLP preprocessing
+- Time-series decomposition and diagnostics
+- Portfolio return / volatility / covariance analysis
+
+**Tools**
+- Python
+- Pandas and NumPy
+- scikit-learn
+- TensorFlow / Keras
+- XGBoost
+- Statsmodels
+- NLTK
+- Jupyter Notebook
+- Git / GitHub
+
+---
+
+## Repo Philosophy
+
+This repository is meant to reflect how I learn and build:
+
+- start from first principles
+- document the full reasoning, not only the final metric
+- connect models to real decision use cases
+- keep the work structured, reviewable, and extensible
 
 ---
 
 <div align="center">
 
-*Open to roles in **Quantitative Risk**, **Credit Model Validation**, and **Machine Learning Analytics**.*
+**Best entry point:** start with the credit risk project, then explore the rest of the portfolio by problem type.
 
 </div>
