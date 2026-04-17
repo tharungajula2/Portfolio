@@ -1,10 +1,10 @@
-<div align="center">
+\<div align="center">
 
 # Tharun Kumar Gajula
 
 **Product & Operations | Systems Builder | Analytics & AI**
 
-[cite_start]Portfolio of **3 live system prototypes** and **8 end-to-end analytics projects** spanning healthcare workflows, knowledge graphs, credit risk, classification, and forecasting[cite: 714, 1227, 1288].
+Portfolio of **3 live system prototypes** and **8 end-to-end analytics projects** spanning healthcare workflows, knowledge graphs, credit risk, classification, and forecasting.
 
 </div>
 
@@ -14,7 +14,7 @@
 
 This repository is a curated portfolio of my work across product prototyping and quantitative analytics. 
 
-[cite_start]My background is not one straight line[cite: 1163]. [cite_start]It started in complex risk workflows, grew through data pipelines and predictive modeling, and now extends into independent product prototyping[cite: 1212]. [cite_start]The goal of this portfolio is to show how I tackle messy problems where information is dense, systems are not clean, and the job is to make things structured, clearer, and easier to act on[cite: 1215].
+My background is not one straight line. It started in complex risk workflows, grew through data pipelines and predictive modeling, and now extends into independent product prototyping. The goal of this portfolio is to show how I tackle messy problems where information is dense, systems are not clean, and the job is to make things structured, clearer, and easier to act on.
 
 The portfolio is split into two halves:
 1. **Live Product Prototypes:** Concept operating systems built to translate complex domains into usable digital workflows.
@@ -24,19 +24,19 @@ The portfolio is split into two halves:
 
 ## 🚀 Live Product Prototypes
 
-[cite_start]These are exploratory web interfaces and concept prototypes built to visualize how data, context, and operational workflows can be integrated into cohesive systems[cite: 1418, 1419].
+These are exploratory web interfaces and concept prototypes built to visualize how data, context, and operational workflows can be integrated into cohesive systems.
 
 ### [Yukti OS](https://yukti-os.vercel.app)
 **Context-First Geriatric Care Concept**
-[cite_start]An exploratory interface and workflow concept for geriatric care[cite: 1418]. [cite_start]Built as a work-in-progress prototype to visualize how medical data and patient context could be integrated into a single system for longevity tracking and clinical interpretation[cite: 1425].
+An exploratory interface and workflow concept for geriatric care. Built as a work-in-progress prototype to visualize how medical data and patient context could be integrated into a single system for longevity tracking and clinical interpretation.
 
 ### [Curiosity OS](https://curiosity-os.vercel.app)
 **Digital Laboratory & Facilitation Layer**
-[cite_start]A conceptual learning layer and workflow interface for educators[cite: 1420]. [cite_start]Built as an exploratory prototype to translate pedagogical theory into practical classroom facilitation tools[cite: 1421].
+A conceptual learning layer and workflow interface for educators. Built as an exploratory prototype to translate pedagogical theory into practical classroom facilitation tools.
 
-### [Quant OS](YOUR_QUANT_OS_LINK_HERE)
+### [Quant OS](https://quant-os.vercel.app/)
 **Quantitative Knowledge Graph**
-[cite_start]A personal work-in-progress knowledge graph for my analytics and quantitative learning[cite: 797]. [cite_start]I built it to make dense notes, models, and ideas easier to navigate, connect, and revisit[cite: 798].
+A personal work-in-progress knowledge graph for my analytics and quantitative learning. I built it to make dense notes, models, and ideas easier to navigate, connect, and revisit.
 
 ---
 
@@ -58,7 +58,7 @@ The portfolio is split into two halves:
 ## What This Portfolio Demonstrates
 
 ### 1. Building Systems & Workflows
-[cite_start]Beyond just fitting models, I build functional prototypes (like Yukti OS and Curiosity OS) that translate complex backend logic and data into accessible, workflow-oriented digital interfaces[cite: 1418, 1421].
+Beyond just fitting models, I build functional prototypes (like Yukti OS and Curiosity OS) that translate complex backend logic and data into accessible, workflow-oriented digital interfaces.
 
 ### 2. Range across quantitative problem types
 This portfolio is not limited to one dataset style or one model family. It includes structured tabular classification, scorecard-style credit risk modeling, NLP on unstructured text, reinforcement learning in a control environment, classical time-series forecasting, and portfolio optimization.
@@ -74,9 +74,9 @@ A major theme across the portfolio is that **the best model depends on the decis
 ## Core Skills Reflected Across the Projects
 
 **Product & Systems Building**
-- [cite_start]Workflow Design & Functional Documentation [cite: 1379]
-- [cite_start]Rapid Prototyping (Next.js, Tailwind, Vercel) [cite: 1380, 1381]
-- [cite_start]Process Improvement & Structured Problem Solving [cite: 1379]
+- Workflow Design & Functional Documentation
+- Rapid Prototyping (Next.js, Tailwind, Vercel)
+- Process Improvement & Structured Problem Solving
 
 **Risk & Modeling**
 - Credit risk modeling (PD / LGD / EAD / Expected Loss)
