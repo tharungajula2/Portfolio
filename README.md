@@ -2,9 +2,9 @@
 
 # Tharun Kumar Gajula
 
-**Quant Risk • Credit Analytics • Machine Learning • NLP • Time Series • Quant Finance**
+**Product & Operations | Systems Builder | Analytics & AI**
 
-Portfolio of **8 end-to-end projects** spanning credit risk, classification, reinforcement learning, forecasting, and portfolio optimization.
+[cite_start]Portfolio of **3 live system prototypes** and **8 end-to-end analytics projects** spanning healthcare workflows, knowledge graphs, credit risk, classification, and forecasting[cite: 714, 1227, 1288].
 
 </div>
 
@@ -12,30 +12,35 @@ Portfolio of **8 end-to-end projects** spanning credit risk, classification, rei
 
 ## About This Repository
 
-This repository is a curated portfolio of my core quantitative and machine learning projects.
+This repository is a curated portfolio of my work across product prototyping and quantitative analytics. 
 
-It is built around **8 full project notes**, each written as a structured masterclass rather than a notebook dump. The goal is to show not only what I built, but also how I think through:
+[cite_start]My background is not one straight line[cite: 1163]. [cite_start]It started in complex risk workflows, grew through data pipelines and predictive modeling, and now extends into independent product prototyping[cite: 1212]. [cite_start]The goal of this portfolio is to show how I tackle messy problems where information is dense, systems are not clean, and the job is to make things structured, clearer, and easier to act on[cite: 1215].
 
-- business problem framing
-- data cleaning and preprocessing
-- model selection and evaluation
-- interpretation and trade-offs
-- limitations, validation, and practical use cases
-
-The portfolio is designed to feel like **one connected body of work**, not a random collection of experiments.
+The portfolio is split into two halves:
+1. **Live Product Prototypes:** Concept operating systems built to translate complex domains into usable digital workflows.
+2. **Quantitative Analytics:** Structured masterclasses detailing end-to-end machine learning and risk workflows.
 
 ---
 
-## Portfolio Snapshot
+## 🚀 Live Product Prototypes
 
-- **8 portfolio projects**
-- **Domains covered:** credit risk, customer analytics, HR analytics, socio-economic classification, NLP, reinforcement learning, forecasting, and quant finance
-- **Problem types covered:** binary classification, multi-class classification, sequential decision-making, time-series forecasting, and portfolio construction
-- **Model families covered:** logistic regression, scorecards, decision trees, random forests, XGBoost, neural networks, vector-space NLP pipelines, SARIMA, RL algorithms, and Modern Portfolio Theory workflows
+[cite_start]These are exploratory web interfaces and concept prototypes built to visualize how data, context, and operational workflows can be integrated into cohesive systems[cite: 1418, 1419].
+
+### [Yukti OS](https://yukti-os.vercel.app)
+**Context-First Geriatric Care Concept**
+[cite_start]An exploratory interface and workflow concept for geriatric care[cite: 1418]. [cite_start]Built as a work-in-progress prototype to visualize how medical data and patient context could be integrated into a single system for longevity tracking and clinical interpretation[cite: 1425].
+
+### [Curiosity OS](https://curiosity-os.vercel.app)
+**Digital Laboratory & Facilitation Layer**
+[cite_start]A conceptual learning layer and workflow interface for educators[cite: 1420]. [cite_start]Built as an exploratory prototype to translate pedagogical theory into practical classroom facilitation tools[cite: 1421].
+
+### [Quant OS](YOUR_QUANT_OS_LINK_HERE)
+**Quantitative Knowledge Graph**
+[cite_start]A personal work-in-progress knowledge graph for my analytics and quantitative learning[cite: 797]. [cite_start]I built it to make dense notes, models, and ideas easier to navigate, connect, and revisit[cite: 798].
 
 ---
 
-## Featured Projects
+## 📊 Featured Analytics Projects
 
 | Project | Area | What it covers |
 |---|---|---|
@@ -52,84 +57,49 @@ The portfolio is designed to feel like **one connected body of work**, not a ran
 
 ## What This Portfolio Demonstrates
 
-### 1. Range across quantitative problem types
-This portfolio is not limited to one dataset style or one model family. It includes:
+### 1. Building Systems & Workflows
+[cite_start]Beyond just fitting models, I build functional prototypes (like Yukti OS and Curiosity OS) that translate complex backend logic and data into accessible, workflow-oriented digital interfaces[cite: 1418, 1421].
 
-- structured tabular classification
-- scorecard-style credit risk modeling
-- NLP on unstructured text
-- reinforcement learning in a control environment
-- classical time-series forecasting
-- portfolio optimization and risk-return analysis
+### 2. Range across quantitative problem types
+This portfolio is not limited to one dataset style or one model family. It includes structured tabular classification, scorecard-style credit risk modeling, NLP on unstructured text, reinforcement learning in a control environment, classical time-series forecasting, and portfolio optimization.
 
-### 2. Strong emphasis on workflow, not just algorithms
-Across projects, I focus on the full modeling pipeline:
+### 3. Strong emphasis on workflow, not just algorithms
+Across projects, I focus on the full pipeline: understanding the business question, preparing the data correctly, choosing suitable evaluation metrics, comparing alternatives instead of forcing one model everywhere, and explaining the result in practical terms.
 
-- understanding the business question
-- preparing the data correctly
-- choosing suitable evaluation metrics
-- comparing alternatives instead of forcing one model everywhere
-- explaining the result in practical terms
-
-### 3. Repeated attention to model trade-offs
-A major theme across the portfolio is that **the best model depends on the decision problem**.
-
-Examples include:
-
-- recall vs precision trade-offs in churn and attrition work
-- interpretability vs flexibility in scorecards and tree-based models
-- baseline comparison in forecasting
-- risk-adjusted return vs raw return in portfolio construction
-- reward design and convergence stability in reinforcement learning
-
-### 4. Clear technical documentation
-Each project is documented as a long-form markdown note so that the work is easy to review, discuss, and extend.  
-That documentation style is intentional: I want the portfolio to be readable by both technical and non-technical reviewers.
+### 4. Repeated attention to model trade-offs
+A major theme across the portfolio is that **the best model depends on the decision problem**. Examples include recall vs precision trade-offs in churn and attrition work, interpretability vs flexibility in scorecards, and risk-adjusted return vs raw return in portfolio construction.
 
 ---
 
 ## Core Skills Reflected Across the Projects
 
+**Product & Systems Building**
+- [cite_start]Workflow Design & Functional Documentation [cite: 1379]
+- [cite_start]Rapid Prototyping (Next.js, Tailwind, Vercel) [cite: 1380, 1381]
+- [cite_start]Process Improvement & Structured Problem Solving [cite: 1379]
+
 **Risk & Modeling**
-- Credit risk modeling
-- PD / LGD / EAD / Expected Loss
+- Credit risk modeling (PD / LGD / EAD / Expected Loss)
 - Scorecards and validation thinking
 - Monitoring and stability analysis
 - Forecasting and quant-finance basics
 
 **Machine Learning**
-- Logistic regression
-- Decision trees and random forests
-- XGBoost
-- Neural networks
-- Reinforcement learning fundamentals
+- Logistic regression, Decision trees, Random forests, XGBoost
+- Neural networks & Reinforcement learning fundamentals
 - Model comparison and evaluation
 
 **Data & Analytics**
 - Data preprocessing and feature engineering
-- Missing-value handling and outlier treatment
-- Imbalance handling
+- Missing-value handling, outlier treatment, imbalance handling
 - Text vectorization and NLP preprocessing
 - Time-series decomposition and diagnostics
-- Portfolio return / volatility / covariance analysis
-
-**Tools**
-- Python
-- Pandas and NumPy
-- scikit-learn
-- TensorFlow / Keras
-- XGBoost
-- Statsmodels
-- NLTK
-- Jupyter Notebook
-- Git / GitHub
 
 ---
 
 ## Repo Philosophy
 
 This repository is meant to reflect how I learn and build:
-
 - start from first principles
 - document the full reasoning, not only the final metric
 - connect models to real decision use cases
@@ -139,6 +109,6 @@ This repository is meant to reflect how I learn and build:
 
 <div align="center">
 
-**Best entry point:** start with the credit risk project, then explore the rest of the portfolio by problem type.
+**Best entry point:** start with the live prototypes above, or explore the credit risk project to see my core quantitative workflow.
 
 </div>
