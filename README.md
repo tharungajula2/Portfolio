@@ -1,78 +1,87 @@
-<div align="center">
+# Analytics & Quantitative Projects
 
-# Tharun Kumar Gajula
+Applied machine learning and quantitative modelling on financial, banking and time-series data. Each project is a Jupyter notebook taken end to end, from raw data through to validated results.
 
-**Product · Analytics · AI Systems**
-
-Curated portfolio of **live product prototypes** and **8 end-to-end analytics architectures** spanning elder care, knowledge graphs, learning systems, credit risk, and quantitative modeling.
-
-**Live portfolio:** [tharungajula.vercel.app](https://tharungajula.vercel.app)
-
-</div>
+**Portfolio:** [tharungajula.vercel.app](https://tharungajula.vercel.app) · **Credit risk system:** [retail-credit-risk](https://github.com/tharungajula2/retail-credit-risk)
 
 ---
 
-## About This Repository
+## Featured work
 
-My background is not one straight line. It started in institutional credit risk workflows, grew through data pipelines and predictive modeling, and now extends into independent, full-stack AI product prototyping. The common thread: taking dense, ambiguous logic and turning it into systems people can actually use.
+### Bank Customer Churn, Neural Network
+Customer attrition on a 10,000-customer retail banking dataset, built in Keras across five model variants: SGD, Adam, dropout, hyperparameter tuning, and SMOTE for class imbalance.
 
-The portfolio is split into three parts:
-1. **Current Build:** VIZIER, a personal multi-agent assistant, in active development.
-2. **Live Product Prototypes:** Three concept operating systems, kept sharp and improved over time.
-3. **Quantitative Analytics:** Structured architectures detailing end-to-end machine learning and risk models.
+Churn recall improved from 0.48 to 0.75 after SMOTE. Precision fell from 0.79 to 0.51 and accuracy from 0.87 to 0.80, while ROC-AUC held near 0.85 across all five variants.
 
----
+The point is not that SMOTE improved the model. It is that the metric worth optimising depends on the cost of the decision. For retention outreach, missing a churner costs more than contacting a non-churner, so recall wins and the precision cost is accepted deliberately.
 
-## 🔧 Current Build
-
-### VIZIER — Personal Multi-Agent Assistant `(Work in Progress)`
-A multi-agent assistant where a **LangGraph supervisor** routes requests across four specialists for calendar, email, research, and analysis, connected to real Gmail and Google Calendar through OAuth. Includes hybrid vector + keyword **RAG** (pgvector on Supabase), long-term memory across sessions, a custom **MCP server**, and an LLM gateway with automatic provider fallback via LiteLLM. Every write action goes through a **human-in-the-loop approval gate**: the agent proposes, I decide. Next up: approval inbox with audit logging, prompt-injection defenses, and Langfuse-based evals.
+**Techniques:** Keras, class imbalance handling, SMOTE, optimiser comparison, dropout regularisation, ROC-AUC and recall-focused evaluation.
 
 ---
 
-## 🚀 Live Product Prototypes
+### Antidiabetic Drug Prescription Forecasting
+Monthly prescription volumes over 204 observations from July 1991 to June 2008, split 168 training and 36 test, evaluated through rolling 12-month forecasts.
 
-Exploratory web systems built with Next.js, Tailwind, and AI integrations to merge data, context, and operational workflows into cohesive products.
+STL decomposition and ADF stationarity testing, followed by regular and seasonal differencing, then model selection across 625 candidate SARIMA structures.
 
-### [Parents Health OS](PASTE-LIVE-URL-HERE)
-**Remote Elder-Care Console**
-Built for Indian families caring for parents from a distance. Parents check in over WhatsApp with no app to learn, while the family dashboard tracks medications, vitals, and triage, and generates doctor-ready briefs. Local-first by design, with consent-based onboarding and a bounded, non-diagnostic AI automation layer.
+| Model | MAPE |
+|---|---|
+| Naive seasonal baseline | 12.69% |
+| SARIMA(2,1,3)(1,1,3)₁₂ | **7.90%** |
 
-### [Quant OS](https://quant-os.vercel.app)
-**Spatial Knowledge Base for Quantitative Finance**
-Markdown notes become an interactive force-directed graph with wikilinks, automated backlinks, KaTeX math rendering, and mastery tracking. Includes Vian AI, a terminal-style chatbot grounded strictly in the knowledge base as a deliberate hallucination guardrail.
+The discipline transfers directly to loss forecasting, provisioning workflows and collections volume planning.
 
-### [Curiosity OS](https://curiosity-os.vercel.app)
-**Digital Lab for Training Thinking Skills**
-Runnable activity playbooks with evidence logging and a reflection workspace, curated learning paths, and a 3D causal knowledge map explored through Student, Mentor, and Builder lenses. Activities are run, not read.
+**Techniques:** STL decomposition, ADF testing, differencing, SARIMA grid search, rolling forecast validation, baseline comparison.
 
 ---
 
-## 📊 Featured Analytics Projects
+### NIFTY 100 Portfolio Optimisation
+Modern Portfolio Theory applied to NIFTY 100 constituents. Adjusted close prices from Yahoo Finance over a three-year lookback, reduced to 82 usable stocks after download failures and missing-value handling, giving a 609 × 82 return matrix.
 
-| Project | Area | What it covers |
-|---|---|---|
-| **[Lending Club Credit Risk Masterclass](./brain/1_lending_club_credit_risk_masterclass.md)** | Credit Risk | End-to-end retail credit risk workflow covering **PD, LGD, EAD, Expected Loss, scorecards, validation, monitoring, CECL, and stress testing**. |
-| **[Bank Churn Prediction with Neural Networks](./brain/5_bank_churn_neural_networks_masterclass.md)** | Banking / Retention Analytics | Binary classification using **neural networks, imbalance handling, dropout, optimizer comparison, ROC-AUC, and recall-focused decision logic**. |
-| **[Employee Retention & Performance Analytics](./brain/6_employee_retention_tree_models_masterclass.md)** | HR Analytics / Tabular ML | Attrition modeling with **logistic regression, decision trees, random forests, feature engineering, grid search, and model comparison**. |
-| **[Socio-Economic Household Classification](./brain/7_socio_economic_household_classification_masterclass.md)** | Large-Scale Tabular ML | Noisy real-world classification with **heavy preprocessing, missing-value handling, outlier treatment, PCA, SMOTE, random forests, and XGBoost**. |
-| **[Twitter Sentiment Analysis with NLP](./brain/8_twitter_sentiment_nlp_masterclass.md)** | NLP / Text Analytics | Multi-class sentiment classification using **text cleaning, tokenization, lemmatization, CountVectorizer, TF-IDF, and Random Forests**. |
-| **[CartPole Reinforcement Learning Masterclass](./brain/11_cartpole_reinforcement_learning_masterclass.md)** | Reinforcement Learning | Comparative RL study covering **REINFORCE, baseline subtraction, custom reward shaping, PPO, DQN, Actor-Critic, SAC, and Twin-Q**. |
-| **[Antidiabetic Drug Prescription Forecasting](./brain/12_antidiabetic_drug_prescription_forecasting_masterclass.md)** | Time-Series Forecasting | Classical forecasting workflow using **STL decomposition, stationarity testing, SARIMA, rolling forecasts, baseline comparison, and MAPE**. |
-| **[NIFTY 100 Portfolio Optimization](./brain/13_nifty100_portfolio_optimization_mpt_masterclass.md)** | Quant Finance / Portfolio Construction | Portfolio optimization covering **log returns, covariance, Monte Carlo portfolio weights, Sharpe-ratio selection, and efficient-frontier thinking**. |
+Log returns, annualised mean returns and a covariance matrix, then 10,000 randomly generated weight vectors used to trace the efficient frontier and select on return over volatility. Equal weight across the 82 stocks returns 9.6% at 4.77% variance, used as the comparison baseline.
+
+This is MPT implemented honestly. It is not an institutional portfolio construction engine: there is no factor model, no sector neutrality, no transaction cost model and no rebalancing backtest.
+
+**Techniques:** log returns, covariance estimation, Monte Carlo weight generation, Sharpe ratio selection, efficient frontier construction.
 
 ---
 
-## Core Skills Reflected Across the Projects
+### Reference notes
+Written technical references built alongside the modelling work, covering regression analysis, machine learning methods, a Python data analytics reference, regulatory foundations, and a quantitative modelling workflow reference.
 
-**Agentic AI (hands-on via VIZIER)**
-LangGraph, Model Context Protocol (MCP), RAG with pgvector (hybrid search), LiteLLM model gateway, Google OAuth integrations, human-in-the-loop action design.
+These exist because being able to explain the work matters as much as producing it.
 
-**Product & Systems Building**
-Next.js (App Router), React, Tailwind CSS, FastAPI, Supabase, PostgreSQL, LLM integrations, structured prompts, spatial graph architectures.
+---
 
-**Risk & Quantitative Modeling**
-Credit risk modeling (PD/LGD/EAD/Expected Loss), scorecards, cross-sectional equity strategy frameworks, turnover-controlled portfolio optimization, forecasting.
+## The credit risk system lives elsewhere
 
-**Machine Learning & AI**
-Logistic regression, ensembles (XGBoost, LightGBM), neural networks, reinforcement learning, NLP vectorization, model validation (KS, AUC, PSI).
+The retail credit risk work outgrew this repository and has its own home:
+
+**[github.com/tharungajula2/retail-credit-risk](https://github.com/tharungajula2/retail-credit-risk)**
+
+An end-to-end system on 466,285 loans from the public LendingClub dataset. PD scorecard with WoE and IV binning, two-stage LGD across 50,968 defaults, EAD, Expected Loss, IFRS 9 and Ind AS 109 ECL staging with SICR criteria and lifetime PD term structures, Basel III Advanced IRB capital, and a full validation and monitoring suite.
+
+---
+
+## Also in this repository
+
+Earlier work kept for completeness rather than featured: employee attrition classification, socio-economic household classification, Twitter sentiment analysis, and a CartPole reinforcement learning comparison. These were built while learning the respective methods.
+
+---
+
+## Data
+
+Every dataset used here is public. Sources include Kaggle, Yahoo Finance and published open datasets. No proprietary, client or employer data appears anywhere in this repository.
+
+---
+
+## Stack
+
+Python, pandas, NumPy, scikit-learn, statsmodels, Keras, imbalanced-learn, XGBoost, yfinance, matplotlib, seaborn, Jupyter.
+
+---
+
+## Contact
+
+Tharun Gajula · Bengaluru, India
+[tharun.gajula.2@gmail.com](mailto:tharun.gajula.2@gmail.com) · [LinkedIn](https://linkedin.com/in/tharungajula) · [Portfolio](https://tharungajula.vercel.app)
